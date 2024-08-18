@@ -17,6 +17,7 @@ We developed the framework of AutoOSS (Autonomous on-surface synthesis) to autom
    cd AutoOSS
 
 4. Install dependenceies：
+   ```sh
    pip install -r requirements.txt
 
 ## Install from 'conda install'
