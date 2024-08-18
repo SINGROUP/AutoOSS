@@ -1,0 +1,33 @@
+package:
+  name: AutoOSS
+  version: "0.1.0"
+
+source:
+  git_url: https://github.com/Meganwu/AutoOSS
+  git_rev: v0.1.0  # Tag your release on GitHub
+
+build:
+  number: 0
+  script: python setup.py install  # or whatever build script you need
+
+requirements:
+  build:
+    - python
+    - setuptools
+  run:
+    - python
+
+test:
+  commands:
+    - python -c "import AutoOSS"
+
+about:
+  home: https://github.com/Meganwu/AutoOSS
+  license: MIT
+  summary: A framework to automate chemical reactions (breaking C-Br bond) in STM
+  description: |
+    We developed the framework of AutoOSS (Autonomous on-surface synthesis) to automate chemical reactions (breaking C-Br) in scanning tunneling microscopy. It comprises the remote connection, target dection module, interpetation module (image classifiers to identify reactants and products), decision-making module to optimize parameters as well as various analysis scritps.
+
+extra:
+  recipe-maintainers:
+    - AutoOSS
