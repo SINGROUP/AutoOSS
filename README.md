@@ -13,7 +13,7 @@ We developed the framework of AutoOSS (Autonomous on-surface synthesis) to autom
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Meganwu/AutoOSS.git
+   git clone https://github.com/SINGROUP/AutoOSS.git
 
 2. Navigate to the main directory
    cd AutoOSS
