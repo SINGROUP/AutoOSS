@@ -1,7 +1,4 @@
 # AutoOSS
-A software infrastructure to automate on-surface synthesis in STM
-
-# AutoOSS
 <img src="./Images/total_architecture_zn.png" alt="Workflow" style="width:90%;">
 
 We developed the framework of AutoOSS (Autonomous on-surface synthesis) to automate chemical reactions (breaking C-Br) in scanning tunneling microscopy. It comprises the remote connection, target dection module, interpetation module (image classifiers to identify reactants and products), decision-making module to optimize parameters as well as various analysis scritps. 
