@@ -12,7 +12,7 @@ setup(
     description="Automate chemical reactions (breaking C-Br bond) in STM",
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',  # Optional: if you have a README.md file
-    url="https://github.com/Meganwu/AutoOSS",
+    url="https://github.com/SINGROUP/AutoOSS",
     packages=find_packages(),  # Automatically find packages in your source directory
     classifiers=[
         "Programming Language :: Python :: 3",
