@@ -12,10 +12,11 @@ We developed the framework of AutoOSS (Autonomous on-surface synthesis) to autom
    ```sh
    git clone https://github.com/SINGROUP/AutoOSS.git
 
-2. Navigate to the main directory
+2. Navigate to the main directory：
+   ```sh
    cd AutoOSS
 
-3. Install dependenceies
+4. Install dependenceies：
    pip install -r requirements.txt
 
 ## Install from 'conda install'
