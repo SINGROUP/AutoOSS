@@ -3,7 +3,7 @@ package:
   version: "0.1.0"
 
 source:
-  git_url: https://github.com/Meganwu/AutoOSS
+  git_url: https://github.com/SINGROUP/AutoOSS
   git_rev: v0.1.0  # Tag your release on GitHub
 
 build:
@@ -22,7 +22,7 @@ test:
     - python -c "import AutoOSS"
 
 about:
-  home: https://github.com/Meganwu/AutoOSS
+  home: https://github.com/SINGROUP/AutoOSS
   license: MIT
   summary: A framework to automate chemical reactions (breaking C-Br bond) in STM
   description: |
